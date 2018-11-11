@@ -4,8 +4,8 @@
   "description": "This is a sample server Arkadia Lending API. Pass Content-Type application/json to hashed path.",
   "main": "index.js",
   "scripts": {
-	"prestart": "npm install",
-	"start": "node index.js"
+    "prestart": "npm install",
+    "start": "node index.js"
   },
   "keywords": [
     "swagger"
