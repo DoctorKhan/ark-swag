@@ -12,7 +12,7 @@ info:
     name: "Apache 2.0"
     url: "http://www.apache.org/licenses/LICENSE-2.0.html"
 host: "token.su2.io"
-basePath: "/arkadia"
+basePath: "/arkadia/docs"
 tags:
 - name: "hashed"
   description: "places hash of data on chain"
@@ -118,18 +118,6 @@ paths:
         default:
           description: "successful operation"
       x-swagger-router-controller: "Unhashed"
-securityDefinitions:
-  petstore_auth:
-    type: "oauth2"
-    authorizationUrl: "http://petstore.swagger.io/oauth/dialog"
-    flow: "implicit"
-    scopes:
-      write:pets: "modify pets in your account"
-      read:pets: "read your pets"
-  api_key:
-    type: "apiKey"
-    name: "api_key"
-    in: "header"
 definitions:
   Borrower:
     type: "object"
